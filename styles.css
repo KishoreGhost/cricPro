@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Aclonica', sans-serif;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Fascinate', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    
+
+}
+
+body{
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png");
+    background-image: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+#heading,.subHeading{
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+    margin-left: 20px;
+}
+
+#top{
+    background-color: red;
+}
+
+
+
+table,tr{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    height: 400px;
+    width: 70%; 
+    margin-left: 20px;
+    background-color: #ffffff;
+}
+
+tr{
+    height: 30px;
+}
+
+
+.out{
+    color: grey;
+    padding: 0 20px;
+}
+
+.footer{
+    margin: 40px 0px 0px 20px;
+}
+
+.batsmen{
+    color: blue;
+    cursor: pointer;
+}
+
+
+#player{
+    position: absolute;
+    animation: fade 4s 1 ease-out;
+    visibility: hidden;
+}
+
+#player {
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+
+.batsmen:hover #player {
+    display: block;
+}
+
+#player img {
+    width: 400px; 
+    height: 200px;
+}
+@keyframes fade{
+    0%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+}

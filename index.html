@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricPro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Archivo:wght@300&family=Fascinate&family=Poppins:ital,wght@0,200;0,300;1,300&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img id = "logo"
+        src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-logo.JPG" alt="logo">
+    </header>
+    <h1 id="heading"><b>ICC WORLD CUP 2011</b></h1>
+    <div class="subHeading">India vs SriLanka ScoreCard<br><br></div>
+    <table>
+        <tr id = "top">
+            <td colspan="5">India Innings
+            </td>
+            <td colspan="2">277-4 (48.2)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Batsman</b> </td>
+            <td>R</td>
+            <td>B</td>
+            <td>4s</td>
+            <td>6s</td>
+            <td>SR</td>
+        </tr>
+        <tr>
+            <td class ="batsmen" onclick="change(1)"> 
+            Virendra Sehwag
+            </td>
+            <td class = "out">lbw b L Malinga</td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0.00</td>
+        </tr>
+        <tr>
+            <td class="batsmen" onclick="change(2)">
+               Sachin Tendulkar
+            </td>
+            <td class = "out">c K Sangakkara b L Malinga</td>
+            <td>18</td>
+            <td>14</td>
+            <td>2</td>
+            <td>0</td>
+            <td>128.57</td>
+        </tr>
+        <tr>
+            <td class ="batsmen" onclick="change(3)">
+                Gautam Gambir
+            </td>
+            <td class = "out">b T Perera</td>
+            <td>97</td>
+            <td>122</td>
+            <td>9</td>
+            <td>0</td>
+            <td>79.51</td>
+        </tr>
+        <tr>
+            <td class ="batsmen" onclick="change(4)">
+                Virat Kohli
+            </td>
+            <td class = "out">c & b T Dilshan</td>
+            <td>35</td>
+            <td>49</td>
+            <td>4</td>
+            <td>0</td>
+            <td>71.43</td>
+        </tr>
+        <tr>
+            <td class ="batsmen" onclick="change(5)">
+                MS Dhoni (c & wk)
+            </td>
+            <td class = "out">not out</td>
+            <td>91</td>
+            <td>79</td>
+            <td>8</td>
+            <td>2</td>
+            <td>115.19</td>
+        </tr>
+        <tr>
+            <td class ="batsmen" onclick="change(6)">
+                Yuvraj Singh
+            </td>
+            <td class = "out">not out</td>
+            <td>21</td>
+            <td>24</td>
+            <td>2</td>
+            <td>0</td>
+            <td>87.50</td>
+        </tr>
+        <tr>
+            <td colspan="2">Extras</td>
+            <td colspan="4">15 (b 1,lb 6, w 8,nb 0,p 0)</td>
+        </tr>
+        <tr>
+            <td colspan="2">Total</td>
+            <td colspan="4">277 (4 wkts, 48.2 Ov)</td>
+        </tr>
+        <tr>
+            <td>Did not bat</td>
+            <td colspan="5">
+                <span class ="batsmen" onclick="change(7)">Suresh Raina, </span>
+                <span class ="batsmen" onclick="change(8)">Harbhajan Singh,</span>
+                <span class ="batsmen" onclick="change(9)">Zaheer Khan,</span>
+                <span class ="batsmen" onclick="change(10)">Munaf Patel,</span>
+                <span class ="batsmen" onclick="change(11)">S Sreesanth</span>
+            </td>
+        </tr>
+    </table>
+
+    <div class="footer">Made by Kishore 🖤 ;)</div>
+    
+</body>
+</html>
+
+<script src = "app.js"></script>
